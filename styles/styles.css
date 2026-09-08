@@ -38,6 +38,19 @@ body {
    font-weight: 400;
 
    font-style: normal;
+   position: relative;
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+    top: -20px;
+  }
+  to{
+    opacity: 1;
+    top: 0;
+  }
 }
 
 .circle-text {
@@ -54,8 +67,19 @@ body {
 
     z-index: 10;
     font-family: "Archivo Black", sans-serif;
+    animation: TextIn 2s;
 }
 
+@keyframes TextIn {
+    from{
+        opacity: 0;
+        bottom: 0;
+    }
+    to{
+        opacity: 1;
+        bottom: 90px;
+    }
+}
 
 .circle-text h1 {
     margin: 0 0 12px;
@@ -84,7 +108,18 @@ body {
     bottom: 0;
 
     transform: translateX(-50%);
+    animation: slideIn 2s;
 
+}
+
+@keyframes slideIn {
+    from{
+        height: 0;
+    }
+
+    to{
+        height: 260px;
+    }
 }
 
 
@@ -101,7 +136,11 @@ body {
 
     border-radius: 50%;
 
-    animation: rotateCircle 200s linear infinite;
+opacity: 0;
+
+    animation:
+        circleIntro 2s ease-out forwards,
+        rotateCircle 200s linear 2s infinite;
 }
 
 
@@ -113,6 +152,17 @@ body {
 
 
 /* Rotation */
+@keyframes circleIntro {
+    from {
+        opacity: 0;
+        transform: translateX(-50%) rotate(-20deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(-50%) rotate(0deg);
+    }
+}
 
 @keyframes rotateCircle {
 
