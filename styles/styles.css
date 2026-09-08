@@ -222,3 +222,11 @@ opacity: 0;
 .card p {
     margin: 0;
 }
+
+/* responsiveness */
+@media (width: 40em) {
+    .fdnd{
+        font-size: 8.5em;
+        margin-top: -35px;
+    }
+}
