@@ -136,6 +136,8 @@ body {
 
     border-radius: 50%;
 
+     animation: rotateCircle 200s linear infinite;
+
 opacity: 0;
 
     animation:
