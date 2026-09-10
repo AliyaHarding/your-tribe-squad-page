@@ -58,13 +58,11 @@ cards.forEach(function(card, index) {
     /*
     Makes every card lean along
     the curve of the circle.
-
-    The angle is stored in a CSS variable instead of
-    directly in "transform" so the hover zoom in style.css
-    can add a scale() on top of it without overwriting
-    the rotation.
     */
 
-    card.style.setProperty("--rotate", angle + "deg");
+    card.style.transform =
+        "translate(-50%, -50%) rotate(" +
+        angle +
+        "deg)";
 
 });
