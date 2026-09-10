@@ -209,7 +209,7 @@ opacity: 0;
 
 .card:hover {
     scale: 1.25;
-
+    margin: 27px;
     z-index: 5;
 
     box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
