@@ -206,7 +206,7 @@ opacity: 0;
 /* Zoom in the card the mouse is over */
 
 .card:hover {
-    --scale: 1.25;
+    scale: 1.25;
 
     z-index: 5;
 
