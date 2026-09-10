@@ -200,8 +200,9 @@ opacity: 0;
 
     /* --rotate is set by animation.js, --scale changes on hover below */
     transform: translate(-50%, -50%) rotate(var(--rotate, 0deg)) scale(var(--scale, 1));
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transform-origin */
 
-    transition: all 0.3s ease, box-shadow 0.3s ease;
+    transition: all 0.3s ease, box-shadow 0.3s ease; /* transition all zodat alles wordt geanimeerd */
 }
 
 
