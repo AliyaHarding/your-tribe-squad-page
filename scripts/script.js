@@ -26,7 +26,7 @@ Shift the cards slightly so there isn't
 one card perfectly in the center.
 */
 
-const startingAngle = angleBetweenCards / 2;
+const startingAngle = angleBetweenCards / 3;
 
 
 
