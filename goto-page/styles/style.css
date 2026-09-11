@@ -1,0 +1,223 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Rock+Salt&display=swap%27');
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    background-color: #020b41;
+}
+
+
+/* Whole screen */
+
+.slider {
+    width: 100%;
+    height: 100vh;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+/* Text that stays still */
+.hva{
+    color: #FFF9F2;
+    font-size: 30vw; /* vw, zodat het automatische aanpast op maat van scherm */
+    margin-top: 32vw; /* vw, zodat het automatische aanpast op maat van scherm */
+    text-align: center;
+    
+   font-family: "Archivo Black", sans-serif;
+
+   font-weight: 400;
+
+   font-style: normal;
+   position: relative;
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+    top: -20px;
+  }
+  to{
+    opacity: 1;
+    top: 0;
+  }
+}
+
+.circle-text {
+    width: 600px;
+    color: #FFF9F2;
+    position: absolute;
+
+    left: 50%;
+    bottom: 90px;
+
+    transform: translateX(-50%);
+
+    text-align: center;
+
+    z-index: 10;
+    font-family: "Archivo Black", sans-serif;
+    animation: TextIn 2s;
+}
+
+@keyframes TextIn {
+    from{
+        opacity: 0;
+        bottom: 0;
+    }
+    to{
+        opacity: 1;
+        bottom: 90px;
+    }
+}
+
+.circle-text h1 {
+    margin-bottom: 5vw;
+    font-size: 60px;
+}
+
+
+.circle-text p {
+    margin: 0;
+
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+/* Visible area for the cards */
+
+.wheel-window {
+    width: 1100px;
+    height: 260px;
+
+    position: absolute;
+
+    left: 50%;
+    bottom: 0;
+
+    transform: translateX(-50%);
+    animation: slideIn 2s;
+
+}
+
+@keyframes slideIn {
+    from{
+        height: 0;
+    }
+
+    to{
+        height: 260px;
+    }
+}
+
+
+/* Big rotating circle */
+
+.circle {
+    width: 3600px;
+    height: 3600px;
+
+    position: absolute;
+
+    left: 50%;
+    top: -20em;
+
+    border-radius: 50%;
+
+opacity: 0;
+
+    animation:
+        circleIntro 2s ease-out forwards,
+        rotateCircle 200s linear 2s infinite;
+}
+
+
+/* Pause when hovering over the cards */
+
+.circle:hover {
+    animation-play-state: paused;
+}
+
+
+/* Rotation */
+@keyframes circleIntro {
+    from {
+        opacity: 0;
+        transform: translateX(-50%) rotate(-20deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(-50%) rotate(0deg);
+    }
+}
+
+@keyframes rotateCircle {
+
+    from {
+        transform: translateX(-50%) rotate(0deg);
+    }
+
+    to {
+        transform: translateX(-50%) rotate(360deg);
+    }
+
+}
+
+
+/* Cards */
+
+.card {
+    width: 220px;
+    height: 160px;
+
+    position: absolute;
+
+    padding: 20px;
+
+    background-color: white;
+
+    border: 2px solid black;
+    border-radius: 15px;
+
+    text-align: center;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+
+    /* --rotate is set by animation.js, --scale changes on hover below */
+    transform: translate(-50%, -50%) rotate(var(--rotate, 0deg)) scale(var(--scale, 1));
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+/* Zoom in the card the mouse is over */
+
+.card:hover {
+    --scale: 1.25;
+
+    z-index: 5;
+
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
+}
+
+
+.card h2 {
+    margin: 0 0 10px;
+}
+
+
+.card p {
+    margin: 0;
+}
+
