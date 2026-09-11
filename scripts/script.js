@@ -13,7 +13,7 @@ const circleSize = 3600;
 
 /* Distance of the cards from the center */
 
-const radius = 1600;
+const radius = 1800;
 
 
 /* Space between each card */
