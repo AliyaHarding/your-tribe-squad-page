@@ -115,7 +115,7 @@ body {
     position: absolute;
 
     left: 50%;
-    top: -760px;
+    top: -780px;
 
     border-radius: 50%;
 
@@ -162,8 +162,8 @@ body {
 /* Cards */
 
 .card {
-    width: 220px;
-    height: 300px;
+    width: 240px;
+    height: auto;
     position: absolute;
     padding: 20px;
     background-color: white;
@@ -188,6 +188,7 @@ body {
         text-align: left;
         transform: rotate(180deg);
         font-size: 16px;
+        font-family: "Rock Salt", cursive;
        }
     
        img{
@@ -199,10 +200,13 @@ body {
 
 /* Zoom in the card the mouse is over */
 .card:hover {
-    --scale: 1.25;
+    scale: 1.15;
+    margin: 27px;
     z-index: 5;
+
     box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
 }
+
 
 .card h2 {
     margin: 0 0 10px;
