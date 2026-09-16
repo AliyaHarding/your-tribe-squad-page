@@ -26,7 +26,7 @@ De namen die op de polaroids staan zijn klikbaar en zijn gekoppeld aan de visite
 De Spotify covers op elke polaroid zijn ook klikbaar en zijn gekoppeld aan de spotify link van zijn/haar favorite lied.
 
 ## Kenmerken
-Wij hebben gebruik gemaakt van 3 programmeer talen: HTML, CSS, JS
+Wij hebben gebruik gemaakt van 3 programmeer talen: [HTML](#html), [CSS](#css), [JS](#javascript)
 
 ### HTML
 Hieronder staat de basis structuur uitgelegd met de setting in de HEAD en opmaak van de BODY:
