@@ -1,4 +1,3 @@
-
 # Squad page
 
 Ontwerp en maak met een team een Squad Page met HTML, CSS en JS.
@@ -11,6 +10,9 @@ De instructie voor deze leertaak staan in de [WIKI](https://github.com/fdnd-task
 This project is licensed under the terms of the [MIT license](./LICENSE).
 
 ***
+# Squad Page team Full Circle
+Dit is onze ontwerp van de squad page. Gemaakt door Aliya, Miriale en Sam!
+
 # Inhoudsopgave
 - [Beschrijving](#beschrijving)
 - [Gebruik](#gebruik)
