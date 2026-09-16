@@ -8,12 +8,12 @@ const totalCards = cards.length;
 
 /* Same size as .circle in CSS */
 
-const circleSize = 3600;
+const circleSize = 750;
 
 
 /* Distance of the cards from the center */
-
-const radius = 1600;
+// const radius = circle.dataset.radius
+const radius = 550;
 
 
 /* Space between each card */
