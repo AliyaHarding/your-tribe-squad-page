@@ -100,7 +100,7 @@ body {
 
 .wheel-window {
     width: 1100px;
-    height: 100px;
+    height: 150px;
 
     position: absolute;
 
@@ -118,7 +118,7 @@ body {
     }
 
     to{
-        height: 100px;
+        height: 150px;
     }
 }
 
@@ -141,7 +141,7 @@ opacity: 0;
 
     animation:
         circleIntro 2s ease-out forwards,
-        rotateCircle 200s linear 2s infinite;
+        rotateCircle 65s linear 2s infinite;
 }
 
 
