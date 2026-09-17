@@ -227,9 +227,6 @@ opacity: 0;
     text-align: center;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.393);
 
-    /* --rotate is set by animation.js, --scale changes on hover below */
-    transform: translate(-50%, -50%) rotate(var(--rotate, 0deg)) scale(var(--scale, 1));
-
     transition: all 0.3s ease, box-shadow 0.3s ease; /* transition all zodat alles wordt geanimeerd */
 
     img{
@@ -258,8 +255,8 @@ opacity: 0;
         text-decoration: underline;
     }
 }
-/* Zoom in the card the mouse is over */
 
+/* Zoom in the card the mouse is over */
 .card:hover {
     scale: 1.25;
     margin: 27px;
