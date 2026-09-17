@@ -227,7 +227,7 @@ opacity: 0;
     text-align: center;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.393);
 
-    transition: all 0.3s ease, box-shadow 0.3s ease; /* transition all zodat alles wordt geanimeerd */
+    transition: all 0.3s ease, box-shadow 0.3s ease; /*transition all zodat alles wordt geanimeerd*/
 
     img{
         width: 200px;
