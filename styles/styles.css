@@ -52,6 +52,38 @@ body {
   }
 }
 
+.goTopage {
+    position: absolute;
+
+    right: 4vw;
+    top: 40px;
+
+    color: #FFF9F2;
+
+    font-size: 28px;
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+
+    letter-spacing: 1px;
+
+    a{
+        color: #FFF9F2;
+        text-decoration: none;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+
+    a:hover a:visited{
+        color: #FFF9F2;
+    }
+}
+
 .circle-text {
     width: 600px;
     color: #FFF9F2;
