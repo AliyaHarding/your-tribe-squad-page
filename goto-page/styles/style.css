@@ -109,8 +109,23 @@ body {
 
     writing-mode: vertical-rl;
     transform: rotate(180deg);
+    z-index: 9999; /* z-index want ander staat de text Squad Page achter de wheelwindow en wordt het onmogelijk om naar de squad page pagina te gaan */
 
     letter-spacing: 1px;
+
+    a{
+        color: #FFF9F2;
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline;
+        }
+
+        &:hover &:visited{
+            color: #FFF9F2;
+        }
+    }
+
+
 }
 
 /* Visible area for the cards */

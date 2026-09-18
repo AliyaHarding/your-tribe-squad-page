@@ -41,15 +41,48 @@ body {
     animation: fadeIn 1s;
 }
 
+/* animatie foor FDND text */
 @keyframes fadeIn{
   from{
-    opacity: 0;
-    top: -20px;
+    opacity: 0; /* eerst is het niet zichtbaar */
+    top: -20px; /* zodat het eerst buiten het scherm is*/
   }
   to{
-    opacity: 1;
-    top: 0;
+    opacity: 1; /* Nu is de text weer zichtbaar*/
+    top: 0;/* Nu is de text op z'n normale plek*/
   }
+}
+
+.goTopage {
+    position: absolute;
+
+    right: 4vw;
+    top: 40px;
+
+    color: #FFF9F2;
+
+    font-size: 28px;
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+
+    letter-spacing: 1px;
+
+    a{
+        color: #FFF9F2;
+        text-decoration: none;
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+
+    a:hover a:visited{
+        color: #FFF9F2;
+    }
 }
 
 .circle-text {
@@ -113,7 +146,7 @@ body {
     animation: slideIn 1s;
 
 }
-
+/* Slide in animatie van buiten het scherm en terug naar z'n original plek */
 @keyframes slideIn {
     from{
         height: 0;
@@ -194,10 +227,7 @@ opacity: 0;
     text-align: center;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.393);
 
-    /* --rotate is set by animation.js, --scale changes on hover below */
-    transform: translate(-50%, -50%) rotate(var(--rotate, 0deg)) scale(var(--scale, 1));
-
-    transition: all 0.3s ease, box-shadow 0.3s ease; /* transition all zodat alles wordt geanimeerd */
+    transition: all 0.3s ease, box-shadow 0.3s ease; /*transition all zodat alles wordt geanimeerd*/
 
     img{
         width: 200px;
@@ -225,8 +255,8 @@ opacity: 0;
         text-decoration: underline;
     }
 }
-/* Zoom in the card the mouse is over */
 
+/* Zoom in the card the mouse is over */
 .card:hover {
     scale: 1.25;
     margin: 27px;
