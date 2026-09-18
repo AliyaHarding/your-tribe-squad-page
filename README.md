@@ -18,12 +18,43 @@ Dit is onze ontwerp van de squad page. Gemaakt door Aliya, Miriale en Sam!
 
 # Inhoudsopgave
 - [Beschrijving](#beschrijving)
+- [KAMPVUUR SESSIE](#kampvuur-sessie)
 - [Gebruik](#gebruik)
 - [Kenmerken](#kenmerken)
 - [Bronnen](#bronnen)
 
 ## Beschrijving
 Om de klas beter te leren kennen hebben wij, als team, een squad page gemaakt met een polaroid en daarop een foto van zijn/haar favoriete lied en hun visitekaartje die ze in week 1 hebben gemaakt. 
+
+## KAMPVUUR SESSIE
+### Samenwerken
+#### Hoe ging het samenwerking?
+
+Samenwerking ging heel goed en communicatie was perfect. Communicatie verlief via teams en ook blijven zitten na school tijd om verder aan ons project te werken.
+
+#### Hebben we de doelen behaald die in ons team canvas staan?
+
+Ja. We hebben ons elkaar goed geholpen ondanks verschil in kennis van software en samen geleerd hoe iteratief werken in groepsverband.
+
+#### Wat zouden we de volgende keer betere willen doen?
+- Meer Issues
+- betere namen voor commits
+- beter op mobiele versie letten.
+
+### Methodisch handelen
+
+#### Hoe hebben jullie gebruik gemaakt van issues?
+Amper gebruikt. Wij hebben issues over het hoofd gezien.
+
+#### Wat zeggen de commits over jullie werkwijze?
+Miriale: Ik heb wel wat meer mogen committen, elk klein wijziging committen zit nog niet helemaal in mijn routine van coderen. dus de volgende keer kan ik dat wat meer doen.  
+
+Aliya: Ik bij elke verandering, een commit geschreven meer om safe te zijn. Ik zou de volgende keer wel iets meer structuur hebben in wat ik commit in plaats van random commits maken en ook een betere beschrijving van wat ik commit.
+
+Sam: Persoonlijk was ik meer van het doen en zelf proberen tot dat ik het goed vond in het begin deed ik elk klein dingetje committen maar uiteindelijk heb ik dat minder gedaan en gewoon 1 keer meerdere dingen aangepast en geüpload
+
+#### En hoe is het verdelen van taken gegaan als je kijkt naar de tekening?  
+Verdeling van de taken in het algemeen ging in het begin iets lastiger, maar uiteindelijk heeft iedereen zijn eigen deel kunnen doen. Op basis van de tekening lijkt het alsof de een ander meer heeft gedaan dan de ander, maar dat komt omdat niet iedereen evenveel heeft gecommit. Dus we zouden kunnen zeggen dat de taakverdeling wel goed ging.
 
 ## Gebruik
 Twee pagina's ( Home page met alle polaroids en een Go-To pagina met een paar leuke plekken binnen/rondom Amstelkampus )
