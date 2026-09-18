@@ -265,3 +265,41 @@ opacity: 0;
     box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
 }
 
+
+/* ===== Mobile / small screens ===== */
+
+@media (max-width: 768px) {
+
+    .fdnd {
+        font-size: 22vw;
+        letter-spacing: normal;
+        margin-top: 6vw;
+        white-space: nowrap;
+    }
+
+    .goTopage {
+        top: 20px;
+        right: 3vw;
+        font-size: 20px;
+    }
+
+    .circle-text {
+        width: 88vw;
+        max-width: 420px;
+        bottom: 15px;
+    }
+
+    .circle-text h1 {
+        font-size: 36px;
+        margin-bottom: 8px;
+    }
+
+    .circle-text p {
+        font-size: 14px;
+    }
+
+    .wheel-window {
+        bottom: 70px;
+    }
+}
+
